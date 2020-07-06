@@ -1,4 +1,5 @@
 
+const diasdaSemana = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sabado"]
 const fetchDays = (ano, dia_da_semana) => {
   var planos_day = []
   var mes =  new Date().getMonth();
